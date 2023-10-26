@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100vh; /*a tag com vh o 100 siginigfica 100% da altura da tela */
+    width: 100vw; /*significa a largura da tela tem que ser feito largura com vw */
+    background-color: blue;
+
+
+}
+
+body {background-image: url('../pacote-d013/imagens/fundo-madeira.jpg');
+    background-size: cover; /*isso faz a imagem se expandir para tela inteira */
+    background-attachment: fixed; /*isso faz a tela ficar fixa */
+    background-repeat: no-repeat;
+}
+
+
+main {
+    height: 100vh;
+    position: relative; /*isso faz vc poder centralizar o conteudo */
+   
+    
+}
+
+section#celular {
+    position: absolute; /*isso faz vc poder centralizar o conteudo */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+
+    height: 627px;
+    width: 311px;
+    
+    background-image: url('../pacote-d013/imagens/frame-iphone.png');
+    background-repeat: no-repeat;}
+
+
+
+
+    /* position: relative; isso faz vc poder centralizar o conteudo 
+    position: absolute; isso faz vc poder centralizar o conteudo 
+    transform: translate(-50%, -50%) ; essas são as coisas que precisam ser feitas para centralizar um conteudo no meio */
+    
+    

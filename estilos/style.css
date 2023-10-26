@@ -9,7 +9,7 @@
 html, body {
     height: 100vh; /*a tag com vh o 100 siginigfica 100% da altura da tela */
     width: 100vw; /*significa a largura da tela tem que ser feito largura com vw */
-    background-color: blue;
+    background-color: rgb(0, 0, 0);
 
 
 }
@@ -37,15 +37,15 @@ section#celular {
     height: 627px;
     width: 311px;
     
-    background-image: url('../pacote-d013/imagens/frame-iphone.png');
+    background-image: url('../pacote-d013/imagens/frame-iphone2.png');
     background-repeat: no-repeat;}
 
     iframe#tela {
         position: relative;
-        top: 80px;
-        left: 22px;
-        width: 266px;
-        height: 470px;
+        top: 64px;
+        left: 17px;
+        width: 216px;
+        height: 380px;
     }
 
     section#redes-sociais img {

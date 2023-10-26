@@ -16,7 +16,7 @@ html, body {
 
 body {background-image: url('../pacote-d013/imagens/fundo-madeira.jpg');
     background-size: cover; /*isso faz a imagem se expandir para tela inteira */
-    background-attachment: fixed; /*isso faz a tela ficar fixa */
+    
     background-repeat: no-repeat;
 }
 
